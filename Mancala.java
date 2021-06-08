@@ -2,7 +2,6 @@
 // Anant Utgikar
 // All Rights Reserved.
 
-import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -186,8 +185,6 @@ public class Mancala {
 
         return merged;
     }
-
-    TreeNode x;
 
     public static class Node {
 
@@ -667,10 +664,6 @@ public class Mancala {
         }
     }
 
-        /*
-    int boardSize = 4;
-    int numStones = 2;
-     */
 
     double monteCarloExploreFactor = 100.0;
     double monteCarloDomainExpertFactor = 100.0;
