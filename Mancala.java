@@ -48,19 +48,6 @@ public class Mancala {
         }
     }
 
-    class NodeCost implements Comparable<NodeCost> {
-        Node n;
-        int cost;
-
-        NodeCost(Node x, int c) {
-            this.cost = c;
-            this.n = x;
-        }
-
-        public int compareTo(NodeCost x) {
-            return ((this.cost > x.cost) ? 1 : -1);
-        }
-    }
 
     public List<Integer> getStones2() {
         return stones2;
@@ -135,6 +122,10 @@ public class Mancala {
         return oneMove(merged, pos, debug);
     }
 
+    /**
+     * Perform one player move at given state 'combo', starting with cup at 'pos'
+     *
+     */
     List<Integer> oneMove(List<Integer> combo, int pos, boolean debug) {
 
         int pickupFrom = pos;
@@ -293,6 +284,20 @@ public class Mancala {
             this.parentMove = pm;
             this.mcTotal = 0;
             this.mcWin = 0;
+        }
+    }
+
+    class NodeCost implements Comparable<NodeCost> {
+        Node n;
+        int cost;
+
+        NodeCost(Node x, int c) {
+            this.cost = c;
+            this.n = x;
+        }
+
+        public int compareTo(NodeCost x) {
+            return ((this.cost > x.cost) ? 1 : -1);
         }
     }
 
