@@ -3,6 +3,7 @@ package com.ai;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
 import static org.junit.Assert.*;
 
@@ -10,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+@Category(value = UnitTest.class)
 public class MancalaTest {
 
     public boolean assertEqual(List<Integer> a, List<Integer> b) {
