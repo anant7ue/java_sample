@@ -301,6 +301,12 @@ public class Mancala {
         }
     }
 
+    public void myPrint(boolean dbg, String str) {
+        if(dbg) {
+            System.out.println(str);
+        }
+    }
+    
     public void minimax(int depth) {
 
         List<Integer> initial = new ArrayList<>(stones1);
