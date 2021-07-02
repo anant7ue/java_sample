@@ -301,7 +301,7 @@ public class Mancala {
         }
     }
 
-    public void myPrint(boolean dbg, String str) {
+    public void myPrint(String str) {
         if(dbg) {
             System.out.println(str);
         }
@@ -755,6 +755,7 @@ public class Mancala {
 
     private final static String MODE = "mode";
     private final static String DEPTH = "depth";
+    private final static boolean dbg = false;
 
     public static void main(String[] args) {
 
