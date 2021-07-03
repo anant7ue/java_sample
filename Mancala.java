@@ -301,8 +301,8 @@ public class Mancala {
         }
     }
 
-    public void myPrint(String str) {
-        if(dbg) {
+    public void myPrint(String str, boolean localDebug) {
+        if(dbg || localDebug) {
             System.out.println(str);
         }
     }
