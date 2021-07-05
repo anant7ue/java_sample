@@ -307,7 +307,7 @@ public class Mancala {
         }
     }
     
-    public void minimax(int depth) {
+    public void minimax(int depth, boolean dbg) {
 
         List<Integer> initial = new ArrayList<>(stones1);
         initial.addAll(stones2);
@@ -717,7 +717,7 @@ public class Mancala {
                 greedy();
                 if (gameOver()) break;
                 System.out.println("\n*** Turn of Minimax ");
-                minimax(depth);
+                minimax(depth, false);
             }
             numOpp = checkWin();
         }
@@ -732,7 +732,7 @@ public class Mancala {
                 monteCarlo();
                 if (gameOver()) break;
                 System.out.println("\n*** Turn of Minimax ");
-                minimax(depth);
+                minimax(depth, false);
             }
             numOpp = checkWin();
         }
@@ -798,7 +798,7 @@ public class Mancala {
                 game.greedy();
                 break;
             case Minimax:
-                game.minimax(depth);
+                game.minimax(depth, false);
                 break;
             case MonteCarlo:
                 game.monteCarlo();
