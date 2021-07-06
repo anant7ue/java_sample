@@ -755,6 +755,7 @@ public class Mancala {
 
     private final static String MODE = "mode";
     private final static String DEPTH = "depth";
+    private final static String DEBUG = "debug";
     private final static boolean dbg = false;
 
     public static void main(String[] args) {
