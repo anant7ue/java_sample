@@ -497,6 +497,10 @@ public class Mancala {
         return bestMove;
     }
 
+    /**
+     * 
+     */
+
     public void monteCarlo() {
 
         List<Integer> initial = new ArrayList<>(stones1);
