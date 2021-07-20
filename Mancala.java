@@ -307,6 +307,10 @@ public class Mancala {
         }
     }
     
+    /**
+     * 
+     */
+
     public void minimax(int depth, boolean dbg) {
 
         List<Integer> initial = new ArrayList<>(stones1);
