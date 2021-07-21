@@ -630,6 +630,10 @@ public class Mancala {
         return board.subList(0, boardSize) + " and " + board.subList(boardSize, 2 * boardSize);
     }
 
+    /**
+     * 
+     */
+
     public void greedy() {
 
         List<Integer> steps = null;
