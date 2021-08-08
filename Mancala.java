@@ -312,6 +312,7 @@ public class Mancala {
     
     /**
      * @param depth
+     * @param dbg
      */
 
     public void minimax(int depth, boolean dbg) {
