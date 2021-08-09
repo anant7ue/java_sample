@@ -725,6 +725,9 @@ public class Mancala {
 
     }
 
+    /**
+     */
+
     public void playGreedyMinimaxVaryInitState(int depth) {
         for (int i = 0; i < 100; i++) {
             setBoardState(i);
