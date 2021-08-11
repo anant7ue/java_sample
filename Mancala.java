@@ -744,6 +744,7 @@ public class Mancala {
     }
 
     /**
+     * @param depth
      */
 
     public void playMCMinimaxVaryInitState(int depth) {
