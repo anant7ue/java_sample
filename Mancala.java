@@ -462,6 +462,7 @@ public class Mancala {
 
     /**
      * @param n
+     * @param debug
      */
 
     public int computeMCmetrics(Node n, boolean debug) {
