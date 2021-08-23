@@ -514,7 +514,7 @@ public class Mancala {
      * 
      */
 
-    public void monteCarlo() {
+    public void monteCarlo(boolean debug) {
 
         List<Integer> initial = new ArrayList<>(stones1);
         initial.addAll(stones2);
