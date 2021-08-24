@@ -511,7 +511,7 @@ public class Mancala {
     }
 
     /**
-     * 
+     * @param debug
      */
 
     public void monteCarlo(boolean debug) {
