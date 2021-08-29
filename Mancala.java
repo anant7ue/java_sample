@@ -643,7 +643,7 @@ public class Mancala {
      * 
      */
 
-    public void greedy() {
+    public void greedy(boolean debug) {
 
         List<Integer> steps = null;
         int bestMove = -1;
