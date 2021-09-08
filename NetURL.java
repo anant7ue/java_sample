@@ -24,7 +24,10 @@ public class NetUrl {
         Pattern p4 = Pattern.compile( ipV4Pattern );
         Matcher m4 = p4.matcher( ip );
         
-        if( m4.matches() || m6.matches()) {
+        if( m4.matches() ) { 
+        
+        } else if (m6.matches()) {
+        
         }
 
     }
