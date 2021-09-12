@@ -19,6 +19,7 @@ public class NetUrl {
         
         String ipV6Pattern = "\\[([a-zA-Z0-9:]+)\\]:(\\d+)";
         String ipV4Pattern = "([a-zA-Z0-9.]+)\\:(\\d+)";
+        List<String> ipList = new ArrayList<>();
         Pattern p6 = Pattern.compile( ipV6Pattern );
         Matcher m6 = p6.matcher( ip );
         Pattern p4 = Pattern.compile( ipV4Pattern );
