@@ -26,7 +26,7 @@ public class NetUrl {
         Matcher m4 = p4.matcher( ip );
         
         if( m4.matches() ) { 
-        
+            System.out.println("");
         } else if (m6.matches()) {
         
         }
