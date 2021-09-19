@@ -28,7 +28,7 @@ public class NetUrl {
         if( m4.matches() ) { 
             System.out.println("IPV4");
         } else if (m6.matches()) {
-        
+            System.out.println("IPV6");        
         }
 
     }
