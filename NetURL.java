@@ -31,5 +31,23 @@ public class NetUrl {
             System.out.println("IPV6");        
         }
 
+        String uStr = "https://api-v3.mbta.com/predictions?filter[stop]=place-pktrm&filter[direction_id]=0&include=stop";
+           // URL url = new URL(uStr);
+           // HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+           // conn.setRequestMethod("GET");
+           // BufferedReader br = new BufferedReader(new InputStreamReader(
+//                    (conn.getInputStream())));
+
+  //          String jsonResponse;
+    //        System.out.println("Output from Server .... \n");
+     //       if ((jsonResponse = br.readLine()) != null) {
+      //          System.out.println(jsonResponse);
+        //    }
+
+          //  JSONParser jsonParser = new JSONParser();
+           // JSONObject obj = (JSONObject) jsonParser.parse(jsonResponse);
+           // JSONArray dataObj = (JSONArray) obj.get("data");
+            // System.out.println("\n\nd-attr = " + dataObj.size());
+
     }
 }
