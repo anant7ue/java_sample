@@ -32,7 +32,7 @@ public class NetUrl {
         }
 
         String uStr = "https://api-v3.mbta.com/predictions?filter[stop]=place-pktrm&filter[direction_id]=0&include=stop";
-           // URL url = new URL(uStr);
+        URL url = new URL(uStr);
            // HttpURLConnection conn = (HttpURLConnection) url.openConnection();
            // conn.setRequestMethod("GET");
            // BufferedReader br = new BufferedReader(new InputStreamReader(
