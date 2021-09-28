@@ -38,7 +38,7 @@ public class NetUrl {
            // BufferedReader br = new BufferedReader(new InputStreamReader(
 //                    (conn.getInputStream())));
 
-  //          String jsonResponse;
+            String jsonResponse;
     //        System.out.println("Output from Server .... \n");
      //       if ((jsonResponse = br.readLine()) != null) {
       //          System.out.println(jsonResponse);
