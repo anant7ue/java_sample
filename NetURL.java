@@ -45,7 +45,7 @@ public class NetUrl {
         //    }
 
             JSONParser jsonParser = new JSONParser();
-           // JSONObject obj = (JSONObject) jsonParser.parse(jsonResponse);
+            JSONObject obj = (JSONObject) jsonParser.parse(jsonResponse);
            // JSONArray dataObj = (JSONArray) obj.get("data");
             // System.out.println("\n\nd-attr = " + dataObj.size());
 
