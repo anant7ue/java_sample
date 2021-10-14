@@ -35,7 +35,7 @@ public class NetUrl {
         URL url = new URL(uStr);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         conn.setRequestMethod("GET");
-           // BufferedReader br = new BufferedReader(new InputStreamReader(
+        BufferedReader br = new BufferedReader(new InputStreamReader(
 //                    (conn.getInputStream())));
 
             String jsonResponse;
