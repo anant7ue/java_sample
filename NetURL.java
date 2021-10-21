@@ -41,7 +41,7 @@ public class NetUrl {
             System.out.println("Output from Server .... \n");
      //       if ((jsonResponse = br.readLine()) != null) {
       //          System.out.println(jsonResponse);
-        //    }
+            }
 
             JSONParser jsonParser = new JSONParser();
             JSONObject obj = (JSONObject) jsonParser.parse(jsonResponse);
