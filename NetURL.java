@@ -39,7 +39,7 @@ public class NetUrl {
 
             String jsonResponse;
             System.out.println("Output from Server .... \n");
-     //       if ((jsonResponse = br.readLine()) != null) {
+            if ((jsonResponse = br.readLine()) != null) {
       //          System.out.println(jsonResponse);
             }
 
